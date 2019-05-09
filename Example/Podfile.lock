@@ -1,34 +1,27 @@
 PODS:
   - CollieGallery (0.6.0)
-  - Nimble (7.0.3)
-  - Quick (1.2.0)
+  - Nimble (8.0.1)
+  - Quick (2.1.0)
 
 DEPENDENCIES:
   - CollieGallery (from `../`)
-  - Nimble (from `https://github.com/Quick/Nimble.git`)
-  - Quick (from `https://github.com/Quick/Quick.git`)
+  - Nimble (= 8.0.1)
+  - Quick (= 2.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
 
 EXTERNAL SOURCES:
   CollieGallery:
     :path: "../"
-  Nimble:
-    :git: https://github.com/Quick/Nimble.git
-  Quick:
-    :git: https://github.com/Quick/Quick.git
-
-CHECKOUT OPTIONS:
-  Nimble:
-    :commit: 302a61803a73377e01b096a11041c9c084d099f1
-    :git: https://github.com/Quick/Nimble.git
-  Quick:
-    :commit: b172e8ad90fba4d21b4059297e047376939d5ca7
-    :git: https://github.com/Quick/Quick.git
 
 SPEC CHECKSUMS:
-  CollieGallery: a9f7a6d334c06e0267a53f59b63f13e5eaee4031
-  Nimble: 6254fec7d02791c7dc33722d799f2a951dd147c1
-  Quick: 65081c7ab6eb85f9b65dbecbaf88793ce9ce47bc
+  CollieGallery: 23cd403c3c7bb0f108bc429a6b874e7315bede0b
+  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
 
-PODFILE CHECKSUM: f35ea2be55c0d4c103d7b4ba7f7d0412eb472494
+PODFILE CHECKSUM: 63b3ee2f44c04bda1fc30a1fbe8f38aa9f9683f0
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1
